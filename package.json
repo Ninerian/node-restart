@@ -1,0 +1,13 @@
+{
+  "name": "node-restart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "2.0.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodemon --inspect index.js"
+  }
+}
